@@ -145,9 +145,9 @@ Conversation=[
 trainer= ListTrainer(chatbot)
 trainer.train(Conversation)
 
-from chatterbot.trainers import ChatterBotCorpusTrainer
-trainer = ChatterBotCorpusTrainer(chatbot)
-trainer.train("chatterbot.corpus.english")
+# from chatterbot.trainers import ChatterBotCorpusTrainer
+# trainer = ChatterBotCorpusTrainer(chatbot)
+# trainer.train("chatterbot.corpus.english")
 
 # For using in terminal remove the multi line comments from this section
 '''
