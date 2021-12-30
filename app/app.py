@@ -2,6 +2,8 @@ from chatterbot import ChatBot
 from chatbot import chatbot
 from flask import Flask, render_template, request
 
+
+
 app = Flask(__name__)
 app.static_folder = 'static'
 
